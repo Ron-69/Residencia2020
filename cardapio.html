@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Especificações do cordápio</title>
+        <link rel="stylesheet" href="_css/comidasJapones.css">
+        <style>
+             body{
+            font-family: Arial;
+            font-size: 10pt;
+            }
+            p{
+            text-align: justify;
+            text-indent: 20px;
+            }
+            article h1{
+            font-size: 15pt;
+            color:#ffffff;
+            background-color: rgba(0,0,0,0.3);
+            padding: 5px;
+            margin: 0px;
+        }
+        </style>
+       
+    </head>
+    <body>
+        <section id="corpo-full">
+            <article id="nota-principal">
+                <header>
+                    <hgroup>
+                        <h3>Culinária Japonesa > informações</h3>
+                        <h1>Uma viajem pela gastronomia <b><i>japonesa</i></b></h1>
+                        <h2>por Andre Luis Caetano</h2>
+                    </hgroup>
+                </header>
+                <p>Clique em qualquer área destacada da imagem para conhecer mais sobre a culinária Japonesa.</p>
+
+                <section id="conteudo">
+                    <img src="_imagens/pratos_cul_jap.jpg" usemap="#cardapiomapa"/>
+                        <map name="cardapiomapa">
+                            <area shape="rect" coords="1,1,97,95" href="comidasJaponesa.html#sushi" target="janela"/>
+                            <area shape="rect" coords="100,1,199,99" href="comidasJaponesa.html#hossomaki" target="janela"/>
+                            <area shape="rect" coords="200,1,299,99" href="comidasJaponesa.html#sashimi" target="janela"/>
+                            <area shape="rect" coords="1,101,98,199" href="comidasJaponesa.html#yakisoba" target="janela"/>
+                            <area shape="rect" coords="101,99,200,199" href="comidasJaponesa.html#robata" target="janela"/>
+                            <area shape="rect" coords="201,100,299,198" href="comidasJaponesa.html#uramakis" target="janela"/>
+                            <area shape="rect" coords="2,202,99,300" href="comidasJaponesa.html#niguiri" target="janela"/>
+                            <area shape="rect" coords="102,200,199,300" href="comidasJaponesa.html#tempura" target="janela"/>
+                            <area shape="rect" coords="202,202,300,300" href="comidasJaponesa.html#wasabi" target="janela"/>
+                            <area shape="rect" coords="1,1,97,95" href="comidasJaponesa.html#temaki" target="janela"/>
+                        </map>
+                    <iframe scrolling="no" src="comidasJaponesa.html" name="janela" id="frame-spec"></iframe>
+
+                </section>
+            </article>
+        </section>
+    </body>
+</html>
